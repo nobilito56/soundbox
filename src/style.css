@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F07391;
+
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.start_button{
+  font-size: 20pt;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 999px;
+  border: 3px solid black;
+  padding: 5% 10%;
+  background-color: #6495ED;
+}
+
+.button_container{
+  display: flex;
+  gap: 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.disable{
+  background-color: #A7BBDE;
+  border: 3px solid black;
+  opacity: 50%;
+}
